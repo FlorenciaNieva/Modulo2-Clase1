@@ -1,3 +1,6 @@
+// Consigna:
+// Crear un programa que pida ingresar una número de partida y una cantidad a ir incrementando y mostrar cinco mensajes seguidos que muestren el número del mensaje y el total incrementado hasta el momento (p. ej.: empezando con 5 e incrementando 5, "Incremento1 Total: 10", "Incremento2 Total: 15", "Incremento3 Total: 20", etc.).
+
 let partida = prompt ('Ingrese un número de partida');
 let incremento = prompt ('Ingrese la cantidad que quiere que vaya incrementando');
 let incremento1 = Number(partida) + Number(incremento);
